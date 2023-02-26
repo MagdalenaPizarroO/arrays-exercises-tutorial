@@ -4,10 +4,6 @@ let hello = [];
 for(let index = 0; index < myArray.length; index++){
     let element = myArray[index];
     // MAGIC HAPPENS HERE
-    if (typeof myArray[index] !== "object") {
-        continue
-         }
-        else { hello.push(myArray[index]); }
 }
 
 console.log(hello)
